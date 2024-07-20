@@ -51,19 +51,14 @@ Other requirements can also refer to the MER2024 GitHub repository.
 
 
 
-### Datasets and Models
+### Datasets Preparation
 #### MER2024 Dataset
 
 Please download the End User License Agreement, fill it out, and send it to merchallenge.contact@gmail.com to access the data. The EULA file can be found at [MER2024](https://github.com/zeroQiaoba/MERTools/tree/master/MER2024). 
 
+MER2024 Baseline also provided the code for feature extracting, including utterance-level and the frame-level.
 
-   *Notes: It appears that the original dataset [website](https://www.fbk.eu/en/research-centers/) hides the download link. However, the dataset can still be downloaded after filling out the dataset request [form](https://docs.google.com/forms/d/e/1FAIpQLSer9jNfUtxbi610n3T6diXRlANBbuzShsCje-GtKs1Sngh0YQ/viewform?pli=1) directly. So we recommend that you use this method.*
 
-1. Make directories to store ST (MuST-C) and datasets. Please specify the target language.
+#### Acknowledgement
 
-2.  Preprocess spm data. 
-
-#### Speech Pre-trained Model 
-
-We use HuBERT model for speech pre-trained model for training. Before training, please download the [HuBERT-Base](https://dl.fbaipublicfiles.com/hubert/hubert_base_ls960.pt) model.
 
