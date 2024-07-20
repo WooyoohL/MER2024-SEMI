@@ -28,7 +28,7 @@ For "happy", "neutral", "angry", and "sad": 0.99
 For "worried" and "surprise": 0.85
 
 <div style="text-align: center">
-<img src="resource/pseudolabel.jpg" width = "70%"/>
+<img src="resource/pseudo_label.jpg" width = "70%"/>
 </div>
 
 
