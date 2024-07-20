@@ -15,6 +15,13 @@ Leveraging Contrastive Learning and Self-Training for Multimodal Emotion Recogni
 <img src="resource/framework1.jpg" width = "100%"/>
 </div>
 
+### Usage
+First, you need to 
+```
+git clone https://github.com/zeroQiaoba/MERTools.git
+```
+Then put our model into ``MER2024/toolkit/models``.
+
 
 ### Key Implementations
 
