@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from toolkit.data.noise_scheduler import NoiseScheduler
+from Noise_scheduler import NoiseScheduler
 import torch.nn.functional as F
 
 
