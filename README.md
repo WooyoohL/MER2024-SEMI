@@ -40,29 +40,22 @@ Create a conda environment with Pytorch
 conda create --name contrastive python=3.9
 conda activate contrastive
 
-pip install torch torchvision torchaudio numpy sklearn tqdm pickle omegaconf
+pip install torch torchvision torchaudio numpy pandas sklearn scipy tqdm pickle omegaconf
 ```
 
-This repository is constructed and gives the main modules used in our work, which are based on the codebase from [MER2024](https://github.com/zeroQiaoba/MERTools/tree/master/MER2024). You can get more information about the training framework or the competition from the link above.
+This repository is constructed and gives the main modules used in our work, which are based on the codebase from [MER2024](https://github.com/zeroQiaoba/MERTools/tree/master/MER2024). 
 
-Requirements
-- pandas==2.0.3
-- sacrebleu==1.5.1
-- scikit-learn==1.3.0
-- scipy==1.11.1
-- sentencepiece==0.1.99
-- tensorboard==2.14.0
-- torch==2.0.1
-- torchaudio==2.0.2
-- tqdm==4.65.0
+You can get more information about the training framework or the competition from the link above.
 
+Other requirements can also refer to the MER2024 GitHub repository.
 
 
 
 ### Datasets and Models
-#### MuST-C Datasets Prepare
+#### MER2024 Dataset
 
-Please Download [MuST-C-v1](https://docs.google.com/forms/d/e/1FAIpQLSer9jNfUtxbi610n3T6diXRlANBbuzShsCje-GtKs1Sngh0YQ/viewform?pli=1) datasets. 
+Please download the End User License Agreement, fill it out, and send it to merchallenge.contact@gmail.com to access the data. The EULA file can be found at [MER2024](https://github.com/zeroQiaoba/MERTools/tree/master/MER2024). 
+
 
    *Notes: It appears that the original dataset [website](https://www.fbk.eu/en/research-centers/) hides the download link. However, the dataset can still be downloaded after filling out the dataset request [form](https://docs.google.com/forms/d/e/1FAIpQLSer9jNfUtxbi610n3T6diXRlANBbuzShsCje-GtKs1Sngh0YQ/viewform?pli=1) directly. So we recommend that you use this method.*
 
