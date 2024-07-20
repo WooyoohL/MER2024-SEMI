@@ -38,3 +38,48 @@ If a threshold is used, it will result in different numbers of tokens being prun
 The differences in patch length for various image inputs are not significant. For example, most images fed into pre-training models have both H and W dimensions set to 224, corresponding to a patch length of 588 (3 × 224 × 224 // 16 ×16). Therefore, a fixed number of tokens can be gradually clipped in the field of CV.
 
 However, the token length for different speech inputs varies significantly. Additionally, the length of speech sequences is much longer than that of corresponding text sequences. Therefore, we use a pruning rate to ensure that longer speech inputs prune more tokens, and shorter ones prune fewer tokens.
+
+
+### Installations
+
+Create a conda environment with Pytorch
+
+```
+conda create --name contrastive python=3.9
+conda activate contrastive
+
+pip install torch torchvision torchaudio numpy sklearn tqdm pickle omegaconf
+```
+
+
+This repository is constructed using the codebase from [fairseq](https://github.com/facebookresearch/fairseq). If you require information on the basic usage of fairseq, please refer to the [fairseq documentation](https://fairseq.readthedocs.io/en/latest/).
+
+Requirements
+- pandas==2.0.3
+- sacrebleu==1.5.1
+- scikit-learn==1.3.0
+- scipy==1.11.1
+- sentencepiece==0.1.99
+- tensorboard==2.14.0
+- torch==2.0.1
+- torchaudio==2.0.2
+- tqdm==4.65.0
+
+
+
+
+### Datasets and Models
+#### MuST-C Datasets Prepare
+
+Please Download [MuST-C-v1](https://docs.google.com/forms/d/e/1FAIpQLSer9jNfUtxbi610n3T6diXRlANBbuzShsCje-GtKs1Sngh0YQ/viewform?pli=1) datasets. 
+
+   *Notes: It appears that the original dataset [website](https://www.fbk.eu/en/research-centers/) hides the download link. However, the dataset can still be downloaded after filling out the dataset request [form](https://docs.google.com/forms/d/e/1FAIpQLSer9jNfUtxbi610n3T6diXRlANBbuzShsCje-GtKs1Sngh0YQ/viewform?pli=1) directly. So we recommend that you use this method.*
+
+1. Make directories to store ST (MuST-C) and datasets. Please specify the target language.
+
+2.  Preprocess spm data. 
+
+#### Speech Pre-trained Model 
+
+We use HuBERT model for speech pre-trained model for training. Before training, please download the [HuBERT-Base](https://dl.fbaipublicfiles.com/hubert/hubert_base_ls960.pt) model.
+
