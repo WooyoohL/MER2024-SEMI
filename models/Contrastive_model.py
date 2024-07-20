@@ -189,15 +189,13 @@ class CONTRASTIVE(nn.Module):
         noise_contrastive_loss_L = self.nt_xent_loss(feat_L, feat_L_arg, self.temperature9)
         noise_contrastive_loss = (noise_contrastive_loss_A + noise_contrastive_loss_V + noise_contrastive_loss_L) / 3
 
-        loss_cmd = self.get_cmd_loss(feat_A_inv, feat_V_inv, feat_L_inv)
-
         loss_A = self.criterion(A_cls, emos)
         loss_V = self.criterion(V_cls, emos)
         loss_L = self.criterion(L_cls, emos)
         loss_F = self.criterion(F_cls, emos)
         loss_single = (loss_L + loss_V + loss_A + loss_F) / 4
 
-        return modality_contrastive_loss + loss_cmd + loss_single  
+        return modality_contrastive_loss + loss_single  
 
     def nt_xent_loss(self, z_i, z_j, temperature):
         z = torch.cat([z_i, z_j], dim=0)
