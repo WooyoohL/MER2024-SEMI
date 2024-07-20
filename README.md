@@ -51,7 +51,7 @@ conda activate contrastive
 pip install torch torchvision torchaudio numpy sklearn tqdm pickle omegaconf
 ```
 
-This repository is constructed and gives the main modules used in our work, which are based on the codebase from [MER2024]([https://github.com/facebookresearch/fairseq](https://github.com/zeroQiaoba/MERTools/tree/master/MER2024)). You can get more information about the training framework or the competition from the link above.
+This repository is constructed and gives the main modules used in our work, which are based on the codebase from [MER2024]([https://github.com/facebookresearch/fairseq](https://github.com/zeroQiaoba/MERTools/tree/master/MER2024]). You can get more information about the training framework or the competition from the link above.
 
 Requirements
 - pandas==2.0.3
