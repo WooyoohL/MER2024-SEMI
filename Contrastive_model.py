@@ -4,11 +4,11 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch import einsum
+import numpy as np
 from einops import rearrange
 from toolkit.models.fcclassifier import FcClassifier
 from Noise_scheduler import NoiseScheduler
-from toolkit.models.cmd import CMD
-import numpy as np
+
 class CONTRASTIVE(nn.Module):
     def __init__(self, args):
         super(CONTRASTIVE, self).__init__()
