@@ -15,14 +15,6 @@ Leveraging Contrastive Learning and Self-Training for Multimodal Emotion Recogni
 <img src="resource/framework1.jpg" width = "100%"/>
 </div>
 
-### Usage
-First, you need to 
-```
-git clone https://github.com/zeroQiaoba/MERTools.git
-```
-Then put our model into ``MER2024/toolkit/models``.
-
-
 ### Key Implementations
 
 - Noisy embedding construction `models/Noise_scheduler.py Line 74`;
@@ -39,7 +31,7 @@ Then put our model into ``MER2024/toolkit/models``.
 #### Q2: TBD
 
 
-### Installations
+### Installations and Usage
 
 Create a conda environment with Pytorch
 
@@ -56,6 +48,12 @@ You can get more information about the training framework or the competition fro
 
 Other requirements can also refer to the MER2024 GitHub repository.
 
+
+Then, you need to 
+```
+git clone https://github.com/zeroQiaoba/MERTools.git
+```
+Finally put our model into ``MER2024/toolkit/models``.
 
 
 ### Datasets Preparation
