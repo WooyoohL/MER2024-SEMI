@@ -40,13 +40,6 @@ For "worried" and "surprise": 0.85
 - Contrastive learning between original and noisy features `models/Contrastive_model.py Line 190`;
 - Calculate contrastive loss `models/Contrastive_model.py Line 202`;
 
-### More Analysis
-
-#### Q1: TBD? 
-
-[Table](./figures/table.md) presents xxx.
-
-#### Q2: TBD
 
 
 ### Installations and Usage
