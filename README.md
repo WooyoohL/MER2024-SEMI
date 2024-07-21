@@ -52,6 +52,12 @@ conda activate contrastive
 
 pip install torch torchvision torchaudio numpy pandas sklearn scipy tqdm pickle omegaconf
 ```
+Then you need to 
+```
+git clone https://github.com/zeroQiaoba/MERTools.git
+```
+Finally, put our model into ``MER2024/toolkit/models``.
+
 
 This repository is constructed and gives the main modules used in our work, which are based on the codebase from [MER2024](https://github.com/zeroQiaoba/MERTools/tree/master/MER2024). 
 
@@ -60,11 +66,7 @@ You can get more information about the training framework or the competition fro
 Other requirements can also refer to the MER2024 GitHub repository.
 
 
-Then, you need to 
-```
-git clone https://github.com/zeroQiaoba/MERTools.git
-```
-Finally put our model into ``MER2024/toolkit/models``.
+
 
 
 ### Datasets Preparation
