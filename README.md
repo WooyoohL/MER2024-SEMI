@@ -78,5 +78,5 @@ MER2024 Baseline also provided the code for feature extracting, including uttera
 
 
 #### Acknowledgement
-
+Thanks to the MER Challenge 2024 Committee for their support and resources.
 
