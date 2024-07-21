@@ -11,7 +11,7 @@ Leveraging Contrastive Learning and Self-Training for Multimodal Emotion Recogni
 
 ### Overview
 <div style="text-align: center">
-<img src="resource/framework1.jpg" width = "100%"/>
+<img src="resource/framework.jpg" width = "100%"/>
 </div>
 
 ### Main Results
