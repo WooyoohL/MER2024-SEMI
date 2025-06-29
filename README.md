@@ -78,3 +78,14 @@ MER2024 Baseline also provided the code for feature extracting, including uttera
 ### Acknowledgment
 Thanks to the MER Challenge 2024 Committee for their support and resources.
 
+### Citation
+If you find our work useful for your research, please cite using this BibTeX:
+```BibTeX
+@inproceedings{fan2024leveraging,
+  title={Leveraging contrastive learning and self-training for multimodal emotion recognition with limited labeled samples},
+  author={Fan, Qi and Li, Yutong and Xin, Yi and Cheng, Xinyu and Gao, Guanglai and Ma, Miao},
+  booktitle={Proceedings of the 2nd International Workshop on Multimodal and Responsible Affective Computing},
+  pages={72--77},
+  year={2024}
+}
+```
