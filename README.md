@@ -74,6 +74,8 @@ Please download the End User License Agreement, fill it out, and send it to merc
 
 MER2024 Baseline also provided the code for feature extracting, including utterance-level and the frame-level.
 
+### Institutions
+Inner Mongolia University, Hohhot, China; Shaanxi Normal University, Xi'an, China; Nanjing University, Nanjing, China
 
 ### Acknowledgment
 Thanks to the MER Challenge 2024 Committee for their support and resources.
