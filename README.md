@@ -76,7 +76,9 @@ MER2024 Baseline also provided the code for feature extracting, including uttera
 
 ### Institutions
 Inner Mongolia University, Hohhot, China; 
+
 Shaanxi Normal University, Xi'an, China; 
+
 Nanjing University, Nanjing, China
 
 ### Acknowledgment
